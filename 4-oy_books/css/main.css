@@ -1,0 +1,42 @@
+:root {
+    --bg-color: #FFFF;
+    --border:#000;
+}
+
+.dark {
+    --bg-color: darkcyan;
+    --border:#000;
+}
+.logo{
+    color: var(--border);
+}
+img {
+    width: 200px;
+    height: 320px;
+}
+
+body {
+    background-color: var(--bg-color);
+}
+
+.card-header {
+    border: 2px solid var(--border);
+}
+
+.select {
+    background-color: transparent;
+    border: 2px solid var(--border);
+    border-radius: 20%;
+}
+
+.btn-mood {
+    background-color: transparent;
+    border: none;
+    width: 32px;
+    height: 32px;
+}
+
+.mood {
+    width: 32px;
+    height: 32px;
+}
